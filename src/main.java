@@ -22,15 +22,3 @@ public class main {
             
     }
 }
-
-
-
-
-
-
-        /* String text1 = JOptionPane.showInputDialog("Introduce el primer numero");
-        String text2 = JOptionPane.showInputDialog("Introduce el segundo numero");
-        int num1 = Integer.parseInt(text1);
-        int num2 = Integer.parseInt(text2);
-        int resultado = num1 + num2;
-        System.out.println("El resultado de la suma entre " + num1 + " y " + num2 + "es: " + resultado); */
