@@ -1,4 +1,3 @@
-import javax.swing.JOptionPane;
 //Clase calculadora para hacer operaciones matematicas basicas
 public class Calc
 {
@@ -23,20 +22,17 @@ public class Calc
         return num1 + num2;
     }
 
-    public void resta()
+    public int resta()
     {
-        final int resultado = num1 - num2;
-        JOptionPane.showMessageDialog(null,"El resultado de la resta entre " + num1 + " y " + num2 + " es: " + resultado);
+        return num1 - num2;
     }
-    public void multiplicar()
+    public int multiplicar()
     {
-        final int resultado = num1 * num2;
-        JOptionPane.showMessageDialog(null,"El resultado de la multiplicacion entre " + num1 + " y " + num2 + " es: " + resultado);
+        return num1 * num2;
     }
-    public void dividir()
+    public int dividir()
     {
-        final int resultado = num1 / num2;
-        JOptionPane.showMessageDialog(null,"El cociente de la division entre " + num1 + " y " + num2 + " es: " + resultado + " y el resto es " + num1 % num2);
+        return num1 / num2;
     }
 
 }
