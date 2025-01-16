@@ -1,3 +1,9 @@
+Programa sencillo para empezar a usar clases y objetos en Java, con una calculadora que hace operaciones basicas.
+
+
+
+
+
 ## Getting Started
 
 Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
