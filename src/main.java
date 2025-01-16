@@ -14,15 +14,15 @@ public class main {
 
         JOptionPane.showMessageDialog(null,"El resultado de la suma entre " + a + " y " + b + " es: "+ c1.suma());
 
-        c1.resta();
+        JOptionPane.showMessageDialog(null,"El resultado de la resta entre " + a + " y " + b + " es: "+c1.resta());
 
-        c1.multiplicar();
+        JOptionPane.showMessageDialog(null,"El resultado de la multiplicacion entre " + a + " y " + b + " es: "+c1.multiplicar());
 
-        c1.dividir();
+        JOptionPane.showMessageDialog(null,"El cociente de la division entre " + a + " y " + b + " es: "+c1.dividir());
             
     }
 }
-   
+
 
 
 
